@@ -1,5 +1,5 @@
 package batalhademonstros;
-//Leo
+
 public class Monstro {
     private String nome;
     private Tipo tipo;
@@ -71,7 +71,7 @@ public class Monstro {
     public void setGolpes(Golpe[] golpes) {
         this.golpes = golpes;
     }
-    //checkar futuramente pra ver se o pokemon ta vivo, talvez tenha que mudar
+
     public boolean check() {
         if (vida > 0){
             return true;
